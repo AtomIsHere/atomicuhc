@@ -1,0 +1,14 @@
+name: AtomUHC
+version: ${project.version}
+main: com.github.atomishere.atomuhc.AtomUHC
+
+commands:
+  startgame:
+    description: start the game
+    usage: /start
+  stopgame:
+    description: stop the game
+    usage: /stop
+
+authors: [AtomIsHere]
+description: Small UHC 1v1 plugin

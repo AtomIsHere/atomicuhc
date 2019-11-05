@@ -11,6 +11,10 @@ public class StopCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if(!sender.isOp()) {
+            return true;
+        }
+
         plugin.getHandler().stop();
         return true;
     }

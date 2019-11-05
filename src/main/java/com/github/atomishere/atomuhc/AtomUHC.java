@@ -20,8 +20,8 @@ public final class AtomUHC extends JavaPlugin {
 
         Bukkit.getServer().getPluginManager().registerEvents(handler, this);
 
-        this.getCommand("start").setExecutor(new StartCommand(this));
-        this.getCommand("stop").setExecutor(new StopCommand(this));
+        this.getCommand("startgame").setExecutor(new StartCommand(this));
+        this.getCommand("stopgame").setExecutor(new StopCommand(this));
     }
 
     @Override
